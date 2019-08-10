@@ -3,3 +3,16 @@
   background-size: cover;
   height: 100vh;
 }
+
+#intro {
+font-size: 1.3rem;
+margin: 1vw;
+
+
+}
+
+aside{
+  font-size: 1.3rem;
+  margin: 1vw;
+  background-color: lightgray;
+}
