@@ -6,13 +6,11 @@
 
 #intro {
 font-size: 1.3rem;
-margin: 1vw;
 
 
 }
 
-aside{
+article{
   font-size: 1.3rem;
-  margin: 1vw;
-  background-color: lightgray;
+  background-color: #f6f6f6;
 }
