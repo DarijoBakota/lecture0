@@ -5,23 +5,28 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+      	<link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+      	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Contact</title>
   </head>
-  <body>
+  <body class="contact-body">
     <!--Navbar start-->
         <header class="container-fluid px-0">
             <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">CroTrans</a>
+                <a class="navbar-brand" href="index.html">CroTrans</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                   <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">About </a>
-                    <a class="nav-item nav-link" href="#">HazMat</a>
+                    <a class="nav-item nav-link" href="About.html">About </a>
+                    <a class="nav-item nav-link" href="HazMat.html">HazMat</a>
                     <a class="nav-item nav-link" href="Contact.html">Contact</a>
                   </div>
                 </div>
@@ -29,6 +34,33 @@
 
         </header>
     <!--navbar end-->
+
+    <div class="container-body">
+      <form id="contact" action="" method="post">
+        <h3>Feel free to reach us, we will be happy to get back to you!</h3>
+        <h4>Contact us for custom quote</h4>
+        <fieldset>
+          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+          <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+        </fieldset>
+        <fieldset>
+          <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </fieldset>
+        <p class="copyright">Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a></p>
+      </form>
+    </div>
+
 
 <footer>Darijo Bakota for CS50's Phyton & JS course - August 2019</footer>
     <!-- Optional JavaScript -->
